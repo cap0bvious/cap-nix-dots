@@ -1,1 +1,1 @@
-/etc/nixos/hardware-confuguration.nix
+/etc/nixos/hardware-configuration.nix
