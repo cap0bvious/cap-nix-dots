@@ -1,12 +1,8 @@
 { config, pkgs, ... }:
 
 {
-    home = {
-        stateVersion = "24.11";
-        packages = [
-            firefox
-        ];
-    };
+    home.stateVersion = "26.05";
+    programs.firefox.enable = true;
     programs.git = {
         enable = true;
         config.user = {
