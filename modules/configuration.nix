@@ -3,7 +3,7 @@
 {
     imports =
         [
-            ./modules/hardware/hardware-configuration.nix
+            ./hardware/hardware-configuration.nix
             ./boot.nix
             ./locale.nix
             ./services.nix
