@@ -17,4 +17,6 @@
     noto-fonts-cjk-sans
     noto-fonts-color-emoji
     ];
+
+    programs.hyprland.enable = true;
 }
